@@ -1,0 +1,43 @@
+.head{
+    display: flexbox;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    
+}
+.space{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.col{
+    color: white; 
+    
+}
+.col-1{
+    color: white;
+}
+.about-icon,.contact-icon{
+padding: 15px 15px 15px 15px;
+margin:15px 15px 15px 15px;
+}
+.cart-icon{
+    padding: 5px 15px 15px 15px;
+margin:25px 15px 15px 15px;
+}
+span{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+Link{
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    margin:0%;
+}
